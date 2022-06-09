@@ -1,0 +1,53 @@
+LOCUS       CM039064               17097 bp    DNA     circular CON 08-FEB-2022
+DEFINITION  Lynx rufus isolate CCGP_SWC_20201006 ecotype Redwood Valley
+            mitochondrion, complete sequence, whole genome shotgun sequence.
+ACCESSION   CM039064 JAJSDN010000000
+VERSION     CM039064.1
+DBLINK      BioProject: PRJNA782957
+            BioSample: SAMN23391104
+KEYWORDS    WGS.
+SOURCE      mitochondrion Lynx rufus (bobcat)
+  ORGANISM  Lynx rufus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Lynx.
+REFERENCE   1  (bases 1 to 17097)
+  AUTHORS   Lin,M., Escalona,M., Sahasrabudhe,R., Nguyen,O., Beraut,E.,
+            Toffelmier,E., Buchalski,M., Shaffer,H.B. and Wayne,R.
+  TITLE     Reference genome assembly of the bobcat, Lynx rufus
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 17097)
+  AUTHORS   Escalona,M., Lin,M., Sahasrabudhe,R., Nguyen,O., Beraut,E.,
+            Toffelmier,E., Buchalski,M., Shaffer,H. and Wayne,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-NOV-2021) Ecology and Evolutionary Biology, UCLA, 610
+            Charles Young Drive South, Los Angeles, CA 90095, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 22-NOV-2021
+            Assembly Method        :: HiFiasm v. 0.16.1-r375; purge_dups v.
+                                      1.2.5; SALSA v. 2.2
+            Assembly Name          :: mLynRuf1.p
+            Diploid                :: Principal Pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 40x
+            Sequencing Technology  :: PacBio Sequel II; Dovetail OmniC;
+                                      Illumina NovaSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..17097
+                     /organism="Lynx rufus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CCGP_SWC_20201006"
+                     /db_xref="taxon:61384"
+                     /sex="male"
+                     /tissue_type="whole blood"
+                     /dev_stage="adult"
+                     /ecotype="Redwood Valley"
+                     /country="USA: Redwood Valley, Mendocino County,
+                     California"
+                     /lat_lon="39.26564 N 123.15892 W"
+                     /collection_date="2020-10-06"
+CONTIG      join(JAJSDN010000076.1:1..17097)
+//

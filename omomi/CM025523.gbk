@@ -1,0 +1,41 @@
+LOCUS       CM025523               16440 bp    DNA     circular CON 15-SEP-2020
+DEFINITION  Marmota monax isolate WC2-LM ecotype Northwest Wildlife
+            mitochondrion, complete sequence, whole genome shotgun sequence.
+ACCESSION   CM025523 WJEC01000000
+VERSION     CM025523.1
+DBLINK      BioProject: PRJNA587092
+            BioSample: SAMN13176033
+KEYWORDS    WGS.
+SOURCE      mitochondrion Marmota monax (woodchuck)
+  ORGANISM  Marmota monax
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciuromorpha; Sciuridae; Xerinae; Marmotini; Marmota.
+REFERENCE   1  (bases 1 to 16440)
+  AUTHORS   Alaina,S., Aleksey,Z.V., Daniela,P. and Salzberg,S.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2020) The Center for Computational Biology, Johns
+            Hopkins University, 3100 Wyman Park Dr, Baltimore, MD 21211, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: OCT-2018
+            Assembly Method        :: MaSuRCA v. 3.2.7
+            Assembly Name          :: Woodchuck_1.0
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 147.0x
+            Sequencing Technology  :: Illumina HiSeq; PacBio RSII
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16440
+                     /organism="Marmota monax"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WC2-LM"
+                     /db_xref="taxon:9995"
+                     /sex="male"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+                     /ecotype="Northwest Wildlife"
+                     /collection_date="Aug-2016"
+CONTIG      join(WJEC01008860.1:1..16440)
+//

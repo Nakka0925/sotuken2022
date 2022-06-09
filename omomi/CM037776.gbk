@@ -1,0 +1,52 @@
+LOCUS       CM037776               16439 bp    DNA     circular CON 20-DEC-2021
+DEFINITION  Marmota monax isolate L192 mitochondrion, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM037776 JAIQCD010000000
+VERSION     CM037776.1
+DBLINK      BioProject: PRJNA761405
+            BioSample: SAMN21332666
+KEYWORDS    WGS.
+SOURCE      mitochondrion Marmota monax (woodchuck)
+  ORGANISM  Marmota monax
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciuromorpha; Sciuridae; Xerinae; Marmotini; Marmota.
+REFERENCE   1  (bases 1 to 16439)
+  AUTHORS   Lok,S., Lau,T., Trost,B., Liu,L., Mcgilvray,I.D., Bader,G.D.,
+            Michalak,T.I. and Macparland,S.A.
+  TITLE     Generation of a high-quality woodchuck genome assembly to identify
+            tumor progression in the woodchuck model of hepatocellular
+            carcinoma
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16439)
+  AUTHORS   Macparland,S.A., Lok,S., Bader,G.D., Mcgilvray,I.D. and
+            Michalak,T.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-SEP-2021) The Centre for Applied Genomics, The
+            Hospital for Sick Children, 686 Bay Street, Toronto, Ontario M5G
+            0A4, Canada
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 09-SEP-2021
+            Assembly Method        :: Flye v. 2.8; freebayes v. 1.3.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 77.2x
+            Sequencing Technology  :: PacBio Sequel; Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16439
+                     /organism="Marmota monax"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="WCK01_MT"
+                     /isolate="L192"
+                     /isolation_source="Labrador"
+                     /db_xref="taxon:9995"
+                     /sex="male"
+                     /tissue_type="PBMC"
+                     /country="Canada"
+                     /lat_lon="51.43 N 57.06 W"
+                     /collection_date="2018-08-03"
+                     /collected_by="Thomas Michalak"
+CONTIG      join(JAIQCD010003382.1:1..16439)
+//

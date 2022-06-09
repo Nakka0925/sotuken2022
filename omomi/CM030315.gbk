@@ -1,0 +1,62 @@
+LOCUS       CM030315               16687 bp    DNA     circular CON 31-MAR-2021
+DEFINITION  Phyllostomus discolor isolate Bat1K_MPI-CBG_1 mitochondrion,
+            complete sequence, whole genome shotgun sequence.
+ACCESSION   CM030315 JABVXQ010000000
+VERSION     CM030315.1
+DBLINK      BioProject: PRJNA628578
+            BioSample: SAMN14734468
+KEYWORDS    WGS.
+SOURCE      mitochondrion Phyllostomus discolor (pale spear-nosed bat)
+  ORGANISM  Phyllostomus discolor
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Phyllostomidae; Phyllostominae; Phyllostomus.
+REFERENCE   1  (bases 1 to 16687)
+  AUTHORS   Jebb,D., Huang,Z., Pippel,M., Hughes,G.M., Lavrichenko,K.,
+            Devanna,P., Winkler,S., Jermiin,L.S., Skirmuntt,E.C.,
+            Katzourakis,A., Burkitt-Gray,L., Ray,D.A., Sullivan,K.A.M.,
+            Roscito,J.G., Kirilenko,B.M., Davalos,L.M., Corthals,A.P.,
+            Power,M.L., Jones,G., Ransome,R.D., Dechmann,D.K.N.,
+            Locatelli,A.G., Puechmaille,S.J., Fedrigo,O., Jarvis,E.D.,
+            Hiller,M., Vernes,S.C., Myers,E.W. and Teeling,E.C.
+  TITLE     Six reference-quality genomes reveal evolution of bat adaptations
+  JOURNAL   Nature 583 (7817), 578-584 (2020)
+   PUBMED   32699395
+REFERENCE   2  (bases 1 to 16687)
+  AUTHORS   Pippel,M., Jebb,D., Huang,Z., Huges,G., Lavrichenko,K., Devanna,P.,
+            Winkler,S., Ray,D., Davalos,L., Hiller,M., Vernes,S., Myers,E.,
+            Teeling,E., Jarvis,E. and Fedrigo,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUN-2020) Center for Systems Biology, Bat1K,
+            Pfotenhauerstrasse 108, Dresden 01307, Germany
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 27-APR-2019
+            Assembly Method        :: DAmar v. APRIL-2019; Bionano Solve BSPQI
+                                      + BSSSI v. 3.3; Salsa2 HiC v. git commit:
+                                      e3ae7d8; GenomicConsensus v. git commit:
+                                      038de5c; longranger align v. 2.2.0;
+                                      Freebayes v. 1.2.0; HiGlass manual
+                                      curation v. 1.5
+            Assembly Name          :: MPI-CBG_DAmar_mPhyDis1.p_v1.0
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 78.0x
+            Sequencing Technology  :: PacBio Sequel CLR; 10X Genomics chromium
+                                      linked reads; Bionano Genomics; Arima
+                                      Genomics HiC; PacBio Sequel IsoSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16687
+                     /organism="Phyllostomus discolor"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Bat1K_MPI-CBG_1"
+                     /db_xref="taxon:89673"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="Germany: Munich (LMU captive colony)"
+                     /collection_date="2016"
+                     /collected_by="Sonja Vernes"
+CONTIG      join(JABVXQ010000042.1:1..16687)
+//

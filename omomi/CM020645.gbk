@@ -1,0 +1,56 @@
+LOCUS       CM020645               16501 bp    DNA     circular CON 16-NOV-2021
+DEFINITION  Hylobates moloch isolate HMO894 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM020645 WKKJ02000000 WKKJ03000000
+VERSION     CM020645.1
+DBLINK      BioProject: PRJNA575281
+            BioSample: SAMN12851060
+KEYWORDS    WGS.
+SOURCE      mitochondrion Hylobates moloch (silvery gibbon)
+  ORGANISM  Hylobates moloch
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hylobatidae; Hylobates.
+REFERENCE   1  (bases 1 to 16501)
+  AUTHORS   Escalona Fermin,M., Vancampen,J., Haukness,M., Maurer,N.W.,
+            Okhovat,M., Harris,R.S., Watwood,A., Medvedev,P., Makova,K.D.,
+            Vollmers,C., Carbone,L. and Green,R.E.
+  TITLE     Whole-genome sequence and assembly of the Javan gibbon (Hylobates
+            moloch)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16501)
+  AUTHORS   Escalona,M., Vancampen,J., Maurer,N.W., Green,R.E. and Carbone,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2019) Biomolecular Engineering, University of
+            California Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, USA
+REFERENCE   3  (bases 1 to 16501)
+  AUTHORS   Escalona Fermin,M., Vancampen,J., Haukness,M., Maurer,N.W.,
+            Okhovat,M., Harris,R.S., Watwood,A., Medvedev,P., Makova,K.D.,
+            Vollmers,C., Carbone,L. and Green,R.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2021) Biomolecular Engineering, University of
+            California Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 27-SEP-2021
+            Assembly Method        :: Supernova v. 2.0.1; YAGCloser v. 1.0;
+                                      HiRise v. 2.1.6; Pilon v. 1.22
+            Assembly Name          :: HMol_V3
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 70.0x
+            Sequencing Technology  :: Illumina; Oxford Nanopore; PacBio;
+                                      Chicago; HiC; 10X Chromium
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16501
+                     /organism="Hylobates moloch"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="HMO894"
+                     /isolation_source="EBV transformed lymphoblastoid cell
+                     line"
+                     /db_xref="taxon:81572"
+                     /sex="male"
+                     /note="Lionel"
+CONTIG      join(WKKJ03018400.1:1..16501)
+//

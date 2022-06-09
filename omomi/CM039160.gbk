@@ -1,0 +1,46 @@
+LOCUS       CM039160               16550 bp    DNA     circular CON 10-FEB-2022
+DEFINITION  Sapajus apella isolate Mango mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM039160 JAGHVQ010000000
+VERSION     CM039160.1
+DBLINK      BioProject: PRJNA717806
+            BioSample: SAMN18511585
+KEYWORDS    WGS.
+SOURCE      mitochondrion Sapajus apella (tufted capuchin)
+  ORGANISM  Sapajus apella
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Cebinae; Sapajus.
+REFERENCE   1  (bases 1 to 16550)
+  AUTHORS   Byrne,H., Webster,T.H., Brosnan,S.F., Izar,P. and Lynch,J.W.
+  TITLE     Signatures of adaptive evolution in platyrrhine primate genomes
+  JOURNAL   bioRxiv (2021) In press
+  REMARK    DOI: 10.1101/2021.08.19.456368
+REFERENCE   2  (bases 1 to 16550)
+  AUTHORS   Byrne,H. and Lynch,J.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2021) Institute for Society and Genetics,
+            University of California Los Angeles, 621 Charles E. Young Dr.,
+            3360 Life Sciences Building, Los Angeles, CA 90095-7221, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: DEC-2016
+            Assembly Method        :: MERACULOUS v. Nov-2016; HiRise v.
+                                      Dec-2016; MIRA v. 4.0.2; mitoBIM v. 1.9.1
+            Assembly Name          :: Sape_Mango_1.1
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 138.0x
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16550
+                     /organism="Sapajus apella"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Mango"
+                     /db_xref="taxon:9515"
+                     /sex="female"
+                     /tissue_type="blood"
+                     /dev_stage="adult"
+CONTIG      join(JAGHVQ010006630.1:1..16550)
+//

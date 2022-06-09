@@ -1,0 +1,52 @@
+LOCUS       CM014077               16477 bp    DNA     circular CON 30-JAN-2019
+DEFINITION  Odocoileus hemionus hemionus isolate MD92 mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM014077 RCHL01000000
+VERSION     CM014077.1
+DBLINK      BioProject: PRJNA417092
+            BioSample: SAMN07977136
+KEYWORDS    WGS.
+SOURCE      mitochondrion Odocoileus hemionus hemionus
+  ORGANISM  Odocoileus hemionus hemionus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Cervidae; Odocoileinae; Odocoileus.
+REFERENCE   1  (bases 1 to 16477)
+  AUTHORS   Russell,T., Cullingham,C., Kommadath,A., Stothard,P., Herbst,A. and
+            Coltman,D.
+  TITLE     Development of a Novel Mule Deer Genomic Assembly and
+            Species-Diagnostic SNP Panel for Assessing Introgression in Mule
+            Deer, White-Tailed Deer, and Their Interspecific Hybrids
+  JOURNAL   G3 (Bethesda) (2019) In press
+   PUBMED   30670611
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 16477)
+  AUTHORS   Kommadath,A. and Stothard,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-OCT-2018) Department of Agricultural, Food and
+            Nutritional Science (AFNS), University of Alberta, 410
+            Agriculture/Forestry Centre, Edmonton, Alberta T6G 2P5, Canada
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method           :: BWA and SAMtools v. 1
+            Assembly Name             :: UofA_Ohem_1.0
+            Genome Representation     :: Full
+            Expected Final Version    :: Yes
+            Reference-guided Assembly :: Ovir.te_1.0
+            Genome Coverage           :: 25.0x
+            Sequencing Technology     :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16477
+                     /organism="Odocoileus hemionus hemionus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="MD92"
+                     /sub_species="hemionus"
+                     /db_xref="taxon:9877"
+                     /tissue_type="ear"
+                     /dev_stage="adult"
+                     /country="Canada: CFB Wainwright, Alberta"
+                     /collection_date="Dec-2010"
+                     /collected_by="Luke Price"
+CONTIG      join(RCHL01016208.1:1..16477)
+//

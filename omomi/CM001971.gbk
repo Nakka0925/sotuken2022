@@ -1,0 +1,65 @@
+LOCUS       CM001971               16562 bp    DNA     circular CON 25-OCT-2016
+DEFINITION  Homo sapiens mitochondrion, complete sequence, whole genome shotgun
+            sequence.
+ACCESSION   CM001971 AMYH02000000
+VERSION     CM001971.1
+DBLINK      BioProject: PRJNA176729
+            BioSample: SAMN02205338
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16562)
+  AUTHORS   Steinberg,K.M., Schneider,V.A., Graves-Lindsay,T.A., Fulton,R.S.,
+            Agarwala,R., Huddleston,J., Shiryev,S.A., Morgulis,A., Surti,U.,
+            Warren,W.C., Church,D.M., Eichler,E.E. and Wilson,R.K.
+  TITLE     Single haplotype assembly of the human genome from a hydatidiform
+            mole
+  JOURNAL   Genome Res. 24 (12), 2066-2076 (2014)
+   PUBMED   25373144
+REFERENCE   2  (bases 1 to 16562)
+  AUTHORS   Wilson,R.K., Fulton,L.L., Fulton,R.S., Graves,T.A., Minx,P.,
+            Warren,W.C., Agarwala,R., Church,D.M., Morgulis,A.,
+            Thibaud-Nissen,F., Schneider,V.A., Shiryev,S.A., Eichler,E.E. and
+            Surti,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2012) NCBI, NIH, Bethesda, MD 20892, USA
+REFERENCE   3  (bases 1 to 16562)
+  AUTHORS   Wilson,R.K., Fulton,L.L., Fulton,R.S., Graves,T.A., Minx,P.,
+            Warren,W.C., Agarwala,R., Church,D.M., Morgulis,A.,
+            Thibaud-Nissen,F., Schneider,V.A., Shiryev,S.A., Eichler,E.E. and
+            Surti,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUN-2013) Washington University School of Medicine,
+            abcd, St. Louis, MO, USA
+COMMENT     Reference-guided assembly based on human assembly GRCh37. Reads
+            were aligned to human GRCh37 primary assembly, excluding Y
+            chromosome, using SRPRISM version 2.4.28-alpha. ARGO, a
+            reference-guided assembler developed at NCBI, was used to produce
+            an initial assembly. BAC clone sequences for 400 clones for CHM1
+            were aligned to the initial assembly. Decisions for the best
+            location to incorporate 382 out of 400 clones could be made
+            manually to produce the submitted assembly, CHM1_1.1.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date             :: JUN-2013
+            Assembly Method           :: SRPRISM v. 2.4.28-alpha; ARGO v. 0.1
+            Assembly Name             :: CHM1_1.1
+            Reference-guided Assembly :: GRCh37
+            Genome Coverage           :: 38x
+            Sequencing Technology     :: Illumina HiSeq2000
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16562
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CHM1"
+                     /db_xref="taxon:9606"
+                     /cell_line="CHM1htert"
+                     /tissue_type="hydatidiform mole"
+                     /note="haploid cell line"
+CONTIG      join(AMYH02040906.1:1..16562)
+//

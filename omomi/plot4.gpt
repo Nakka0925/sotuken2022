@@ -1,0 +1,12 @@
+set nokey
+set key right top
+set ylabel "y"
+set yrange [:5000]
+set xrange [-500:7000]
+set xlabel "x"
+set title "Cercopithecidae"
+set key font"Arial,10"
+set term pdfcairo color size 4in,3in # カラー
+#set style fill solid 0.5
+set output "Cercopithecidae.pdf"
+plot "Macaca_fuscata.dat" with line lc "dark-cyan", "Cercocebus_atys.dat" with line, "Papio_anubis.dat" with line lc "green", "Mandrillus_leucophaeus.dat" with line, "Theropithecus_gelada.dat" with line, "Cercopithecus_albogularis.dat" with line, "Erythrocebus_patas.dat" with line, "Colobus_guereza.dat" with line, "Procolobus_verus.dat" with line, "Pygathrix_nemaeus.dat" with line lc "brown", "Presbytis_melalophos.dat" with line lc "light-pink"

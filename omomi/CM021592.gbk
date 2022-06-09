@@ -1,0 +1,51 @@
+LOCUS       CM021592               16570 bp    DNA     circular CON 04-MAR-2020
+DEFINITION  Homo sapiens isolate NA24385 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM021592 JAAKGM010000000
+VERSION     CM021592.1
+DBLINK      BioProject: PRJNA607914
+            BioSample: SAMN03283347
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16570)
+  AUTHORS   Salzberg,S.L., Puiu,D., Sherman,R.M., Shumante,A., Pertea,M.,
+            Varabyou,A. and Zimin,A.V.
+  TITLE     Assembly and Annotation of the Ashkenazi Human Reference Genome
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16570)
+  AUTHORS   Salzberg,S.L., Puiu,D., Sherman,R.M., Shumante,A., Pertea,M.,
+            Varabyou,A. and Zimin,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-2020) The Center for Computational Biology, Johns
+            Hopkins University, 3100 Wyman Park Dr, Baltimore, MD 21211, USA
+REFERENCE   3  (bases 1 to 16570)
+  AUTHORS   Salzberg,S.L., Puiu,D., Sherman,R.M., Shumante,A., Pertea,M.,
+            Varabyou,A. and Zimin,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-2020) The Center for Computational Biology, Johns
+            Hopkins University, 3100 Wyman Park Dr, Baltimore, MD 21211, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method        :: MaSuRCA v. 3.1.1
+            Assembly Name          :: Ash1.7
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 123.0x
+            Sequencing Technology  :: Illumina HiSeq; Oxford Nanopore MinION;
+                                      PacBio Sequel
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16570
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="NA24385"
+                     /bio_material="CORIELL:NA24385"
+                     /db_xref="taxon:9606"
+                     /sex="male"
+                     /tissue_type="B-Lymphocyte"
+CONTIG      join(JAAKGM010000025.1:1..16570)
+//

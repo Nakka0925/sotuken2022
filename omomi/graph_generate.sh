@@ -1,0 +1,1 @@
+ruby gnuplot_omomi.rb $1

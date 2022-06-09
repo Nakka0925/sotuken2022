@@ -1,0 +1,60 @@
+LOCUS       CM010492               16339 bp    DNA     circular CON 30-NOV-2018
+DEFINITION  Bos indicus x Bos taurus breed Angus x Brahman F1 hybrid
+            mitochondrion, complete sequence, whole genome shotgun sequence.
+ACCESSION   CM010492 PUFS02000000
+VERSION     CM010492.2
+DBLINK      BioProject: PRJNA432857
+            BioSample: SAMN08473802
+KEYWORDS    WGS.
+SOURCE      mitochondrion Bos indicus x Bos taurus (hybrid cattle)
+  ORGANISM  Bos indicus x Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 16339)
+  AUTHORS   Low,W.Y., Tearle,R., Bickhart,D.M., Rosen,B.D., Koren,S., Rhie,A.,
+            Hiendleder,S., Phillippy,A.M., Smith,T.P.L. and Williams,J.L.
+  TITLE     Haplotype-resolved cattle genomes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16339)
+  AUTHORS   Koren,S., Rhie,A., Walenz,B., Dilthey,A.T., Bickhart,D.M.,
+            Kingan,S., Hiendleder,S., Williams,J.L., Smith,T.P. and
+            Phillippy,A.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2018) CSGB, NHGRI/NIH, NIH 49 Convent Drive Room
+            4C36A, Bethesda, MD 20892, USA
+REFERENCE   3  (bases 1 to 16339)
+  AUTHORS   Low,W.Y., Tearle,R., Bickhart,D.M., Rosen,B.D., Koren,S., Rhie,A.,
+            Hiendleder,S., Phillippy,A.M., Smith,T.P.L. and Williams,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-NOV-2018) School of Animal and Veterinary Sciences,
+            University of Adelaide, University of Adelaide Roseworthy Campus,
+            Mudla Wirra Road, Roseworthy, SA 5371, Australia
+COMMENT     On Nov 30, 2018 this sequence version replaced CM010492.1.
+            This assembly represents the Bos taurus indicus (maternal)
+            haplotype and includes the autosomes plus the X chromosome and
+            mitochondria. The paternal haplotype sequences are in WGS project
+            PUFT00000000.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: TrioCanu v. 1.6
+            Assembly Name          :: Bos_hybrid_MaternalHap_v2.0
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 136.0x
+            Sequencing Technology  :: PacBio Sequel; PacBio RSII; Illumina
+                                      NextSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16339
+                     /organism="Bos indicus x Bos taurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:30522"
+                     /sex="male"
+                     /tissue_type="lung"
+                     /dev_stage="fetus"
+                     /collected_by="Stefan Hiendleder"
+                     /note="breed: Angus x Brahman F1 hybrid"
+CONTIG      join(PUFS02000031.1:1..16339)
+//

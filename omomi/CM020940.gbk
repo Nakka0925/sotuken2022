@@ -1,0 +1,60 @@
+LOCUS       CM020940               16720 bp    DNA     circular CON 16-APR-2020
+DEFINITION  Canis lupus familiaris isolate Nala breed German Shepherd
+            mitochondrion, complete sequence, whole genome shotgun sequence.
+ACCESSION   CM020940 VSDE02000000
+VERSION     CM020940.1
+DBLINK      BioProject: PRJNA560310
+            BioSample: SAMN12574852
+KEYWORDS    WGS.
+SOURCE      mitochondrion Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (bases 1 to 16720)
+  AUTHORS   Field,M.A., Rosen,B.D., Dudchenko,O., Chan,E.K.F., Minoche,A.E.,
+            Edwards,R.J., Barton,K., Lyons,R.J., Tuipulotu,D.E., Hayes,V.M., D
+            Omer,A., Colaric,Z., Keilwagen,J., Skvortsova,K., Bogdanovic,O.,
+            Smith,M.A., Aiden,E.L., Smith,T.P.L., Zammit,R.A. and
+            Ballard,J.W.O.
+  TITLE     Canfam_GSD: De novo chromosome-length genome assembly of the German
+            Shepherd Dog (Canis lupus familiaris) using a combination of long
+            reads, optical mapping, and Hi-C
+  JOURNAL   Gigascience 9 (4) (2020)
+   PUBMED   32236524
+REFERENCE   2  (bases 1 to 16720)
+  AUTHORS   Field,M.A. and Ballard,W.O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2019) Tropical Health and Medicine, James Cook
+            University, 14-88 MacGregor Road, Smithfield, Queensland 4878,
+            Australia
+REFERENCE   3  (bases 1 to 16720)
+  AUTHORS   Field,M.A. and Ballard,W.O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-2020) Tropical Health and Medicine, James Cook
+            University, 14-88 MacGregor Road, Smithfield, Queensland 4878,
+            Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: AUG-2019
+            Assembly Method        :: Canu v. August-2019; BioNano v.
+                                      August-2019; Hi-C v. August-2019
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 30.0x
+            Sequencing Technology  :: PacBio Sequel; Oxford Nanopore
+                                      PromethION; Illumina (10X Chromium)
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16720
+                     /organism="Canis lupus familiaris"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Nala"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+                     /sex="female"
+                     /tissue_type="blood"
+                     /dev_stage="adult"
+                     /note="breed: German Shepherd"
+CONTIG      join(VSDE02000218.1:1..16720)
+//

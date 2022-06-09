@@ -1,0 +1,47 @@
+LOCUS       CM024465               16346 bp    DNA     circular CON 14-AUG-2020
+DEFINITION  Bos gaurus isolate Gaur_Henry_Doorly_Zoo_5443 mitochondrion,
+            complete sequence, whole genome shotgun sequence.
+ACCESSION   CM024465 JACAOC010000000
+VERSION     CM024465.1
+DBLINK      BioProject: PRJNA325061
+            BioSample: SAMN05558794
+KEYWORDS    WGS.
+SOURCE      mitochondrion Bos gaurus (gaur)
+  ORGANISM  Bos gaurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 16346)
+  AUTHORS   Low,W.Y., Rosen,B.D., Bickhart,D.M., Heaton,M.P. and Smith,T.P.L.
+  TITLE     Genome assembly of gaur
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16346)
+  AUTHORS   Low,W.Y., Rosen,B.D., Bickhart,D.M., Heaton,M.P. and Smith,T.P.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUN-2020) School of Animal and Veterinary Sciences,
+            University of Adelaide, University of Adelaide Roseworthy Campus,
+            Mudla Wirra Road, Roseworthy, SA 5371, Australia
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 22-JUN-2020
+            Assembly Method        :: Canu v. v1.6
+            Assembly Name          :: ARS_UOA_Gaur_1
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 59.0x
+            Sequencing Technology  :: PacBio
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16346
+                     /organism="Bos gaurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Gaur_Henry_Doorly_Zoo_5443"
+                     /isolation_source="healthy adult being transferred to
+                     another zoo"
+                     /db_xref="taxon:9904"
+                     /sex="female"
+                     /tissue_type="blood"
+                     /dev_stage="adult"
+                     /country="USA:Henry Doorly Zoo"
+CONTIG      join(JACAOC010000031.1:1..16346)
+//

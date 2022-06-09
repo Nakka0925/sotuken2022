@@ -1,0 +1,41 @@
+LOCUS       CM037828               16339 bp    DNA     circular CON 20-DEC-2021
+DEFINITION  Bos taurus isolate LICJ1 breed Jersey mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM037828 JAJQWI010000000
+VERSION     CM037828.1
+DBLINK      BioProject: PRJNA667556
+            BioSample: SAMN16377989
+KEYWORDS    WGS.
+SOURCE      mitochondrion Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 16339)
+  AUTHORS   Rosen,B.D., Smith,T.P.L. and Couldrey,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-2021) Animal Genomics and Improvement Laboratory,
+            USDA ARS, 10300 Baltimore Ave, Beltsville, MD 20705, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 31-AUG-2018
+            Assembly Method        :: Canu v. 1.7
+            Assembly Name          :: ARS-LIC_NZ_Jersey
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 67.0x
+            Sequencing Technology  :: PacBio Sequel
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16339
+                     /organism="Bos taurus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LICJ1"
+                     /db_xref="taxon:9913"
+                     /sex="male"
+                     /tissue_type="blood"
+                     /dev_stage="adult"
+                     /country="New Zealand"
+                     /note="breed: Jersey"
+CONTIG      join(JAJQWI010000229.1:1..16339)
+//

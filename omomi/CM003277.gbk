@@ -1,0 +1,48 @@
+LOCUS       CM003277               16568 bp    DNA     circular CON 15-MAY-2015
+DEFINITION  Homo sapiens isolate CHM1 mitochondrion, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM003277 LCYE01000000
+VERSION     CM003277.1
+DBLINK      BioProject: PRJNA253496
+            BioSample: SAMN02743421
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16568)
+  AUTHORS   Chin,C.-S., Deflaux,N., Boitano,M., Malig,M., Eichler,E.,
+            Huddleston,J., Chaisson,M. and Surti,U.
+  TITLE     PacBio CHM1 assembly 54x of P5C3 data, original assembly done with
+            blasr/falcon_sense/wgs-8.1
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16568)
+  AUTHORS   Chin,C.-S., Deflaux,N., Boitano,M., Malig,M., Eichler,E.,
+            Huddleston,J., Chaisson,M. and Surti,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-MAY-2015) Bioinformatics, Pacific Biosciences, 1380
+            Willow Rd., Menlo Park, CA 94025, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2014
+            Assembly Method        :: HGAP method, modules used blasr,
+                                      falcon_sense, wgs-8.1 v. Jan-2014
+            Assembly Name          :: PacBioCHM1_r1_02092014
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 54.0x
+            Sequencing Technology  :: PacBio
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16568
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CHM1"
+                     /db_xref="taxon:9606"
+                     /sex="female"
+                     /cell_line="CHM1hTERT"
+                     /tissue_type="hydatidiform mole"
+                     /note="haploid cell line"
+CONTIG      join(LCYE01026312.1:1..16568)
+//

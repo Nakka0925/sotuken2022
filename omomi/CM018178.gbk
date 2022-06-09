@@ -1,0 +1,68 @@
+LOCUS       CM018178               16370 bp    DNA     circular CON 26-SEP-2019
+DEFINITION  Phocoena sinus isolate mPhoSin1 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM018178 VOSU01000000
+VERSION     CM018178.1
+DBLINK      BioProject: PRJNA557831
+            BioSample: SAMN12325353
+KEYWORDS    WGS.
+SOURCE      mitochondrion Phocoena sinus (vaquita)
+  ORGANISM  Phocoena sinus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Whippomorpha;
+            Cetacea; Odontoceti; Phocoenidae; Phocoena.
+REFERENCE   1  (bases 1 to 16370)
+  AUTHORS   Morin,P., Mountcastle,J., Fungtammasan,C., Rhie,A.,
+            Rojas-Bracho,L., Smith,C.R., Taylor,B.L., Gulland,F.M.D.,
+            Musser,W., Houck,M., Haase,B., Paez,S., Howe,K., Torrance,J.,
+            Formenti,G., Phillippy,A., Ryder,O., Jarvis,E.D. and Fedrigo,O.
+  TITLE     Phocoena sinus (Vaquita) genome, mPhoSin1, primary haplotype
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16370)
+  AUTHORS   Morin,P., Mountcastle,J., Fungtammasan,C., Rhie,A.,
+            Rojas-Bracho,L., Smith,C.R., Taylor,B.L., Gulland,F.M.D.,
+            Musser,W., Houck,M., Haase,B., Paez,S., Howe,K., Torrance,J.,
+            Formenti,G., Phillippy,A., Ryder,O., Jarvis,E.D. and Fedrigo,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-AUG-2019) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+COMMENT     This assembly represents the principal haplotype of the diploid
+            genome Phocoena sinus and includes the chromosomes. The alternate
+            haplotype sequences are in WGS project VOSV00000000.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 23-JUL-2019
+            Assembly Method        :: FALCON v. 5.1.1; FALCON-Unzip v. 1.0.2;
+                                      Arrow smrtanalysis Pacbio polishing v.
+                                      6.0.0.47841; purge_haplotigs v. 1.0.4;
+                                      scaff10X v. 4.1; Bionano solve DLS v.
+                                      3.3_10252018; Salsa HiC v. 2.2; Arrow
+                                      smrtanalysis Pacbio polishing & gap
+                                      filling v. 6.0.0.47841; longranger align
+                                      v. 2.2.2; freebayes Illumina polishing v.
+                                      1.2.0; gEVAL manual curation v.
+                                      2019-07-23; VGP assembly pipeline
+                                      individual v. 1.5
+            Assembly Name          :: mPhoSin1.pri
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 67.26x
+            Sequencing Technology  :: PacBio Sequel I; Illumina NovaSeq; Arima
+                                      Genomics Hi-C; Bionano Genomics DLE-1
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16370
+                     /organism="Phocoena sinus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="mPhoSin1"
+                     /db_xref="taxon:42100"
+                     /sex="female"
+                     /tissue_type="Cultured fibroblasts (kidney)"
+                     /country="Mexico: San Felipe, Baja California"
+                     /lat_lon="31.103595 N 114.679383 W"
+                     /collection_date="04-Nov-2017"
+                     /collected_by="Frances Gulland"
+CONTIG      join(VOSU01000065.1:1..16370)
+//

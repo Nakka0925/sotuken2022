@@ -1,0 +1,78 @@
+LOCUS       CM017348               17044 bp    DNA     circular CON 14-JUL-2020
+DEFINITION  Lynx canadensis isolate LIC74 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM017348 VHLE02000000
+VERSION     CM017348.2
+DBLINK      BioProject: PRJNA489107
+            BioSample: SAMN09948483
+KEYWORDS    WGS.
+SOURCE      mitochondrion Lynx canadensis (Canada lynx)
+  ORGANISM  Lynx canadensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Lynx.
+REFERENCE   1  (bases 1 to 17044)
+  AUTHORS   Lama,T., Johnson,W., Organ,J.F., Vashon,J., Fedrigo,O.,
+            Mountcastle,J., Haase,B., Rhie,A., Koren,S., Phillippy,A.,
+            Collins,J., Chow,W., Howe,K., Lewin,H., Durbin,R., Myers,G.,
+            O'Brien,S., Koepfli,K.-P., Ryder,O., Damas,J., Formenti,G. and
+            Jarvis,E.D.
+  TITLE     (UPDATE) Lynx canadensis (Canada Lynx) genome, mLynCan4, primary
+            haplotype, v2
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 17044)
+  AUTHORS   Lama,T., Johnson,W., Organ,J.F., Vashon,J., Fedrigo,O.,
+            Mountcastle,J., Haase,B., Rhie,A., Koren,S., Phillippy,A.,
+            Collins,J., Chow,W., Howe,K., Lewin,H., Durbin,R., Myers,G.,
+            O'Brien,S., Koepfli,K.-P., Ryder,O., Damas,J., Formenti,G. and
+            Jarvis,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2019) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+REFERENCE   3  (bases 1 to 17044)
+  AUTHORS   Lama,T., Johnson,W., Organ,J.F., Vashon,J., Fedrigo,O.,
+            Mountcastle,J., Haase,B., Rhie,A., Koren,S., Phillippy,A.,
+            Collins,J., Chow,W., Howe,K., Lewin,H., Durbin,R., Myers,G.,
+            O'Brien,S., Koepfli,K.-P., Ryder,O., Damas,J., Formenti,G. and
+            Jarvis,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2020) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+COMMENT     On Jul 14, 2020 this sequence version replaced CM017348.1.
+            This assembly represents the principal haplotype of the diploid
+            genome Lynx canadensis and includes the chromosomes. The alternate
+            haplotype sequences are in WGS project VHLF00000000.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 03-APR-2020
+            Assembly Method        :: FALCON v. 5.1.1; FALCON-Unzip v. 1.0.2;
+                                      purge_haplotigs v. bitbucket 7.10.2018;
+                                      scaff10x v. 2.1; Bionano Solve 2 enzyme
+                                      v. 3.2.1; Salsa2 v. 2.2; Arrow v.
+                                      5.1.0.26412; longranger align v. 2.2.2;
+                                      freebayes v. 1.2.0; gEVAL manual curation
+                                      v. 2020-04-03; VGP standard assembly
+                                      pipeline v. 1.5
+            Assembly Name          :: mLynCan4.pri.v2
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 72.0x
+            Sequencing Technology  :: PacBio Sequel I; 10X genome; Bionano
+                                      Genomics; Arima Genomics Hi-C
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..17044
+                     /organism="Lynx canadensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LIC74"
+                     /db_xref="taxon:61383"
+                     /sex="male"
+                     /tissue_type="muscle, distal limb"
+                     /country="USA: Aroostook County, Maine"
+                     /lat_lon="42.2466 N 71.6746 W"
+                     /collection_date="2017-12-05"
+                     /collected_by="Tanya Lama"
+CONTIG      join(VHLE02000055.1:1..17044)
+//

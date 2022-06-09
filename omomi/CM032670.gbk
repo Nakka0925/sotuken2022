@@ -1,0 +1,51 @@
+LOCUS       CM032670               16480 bp    DNA     circular CON 06-JUL-2021
+DEFINITION  Mustela nivalis isolate MRI-KZ171007 ecotype Poland mitochondrion,
+            complete sequence, whole genome shotgun sequence.
+ACCESSION   CM032670 JAGEND010000000
+VERSION     CM032670.1
+DBLINK      BioProject: PRJNA704797
+            BioSample: SAMN18043446
+KEYWORDS    WGS.
+SOURCE      mitochondrion Mustela nivalis (least weasel)
+  ORGANISM  Mustela nivalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Mustelidae; Mustelinae; Mustela.
+REFERENCE   1  (bases 1 to 16480)
+  AUTHORS   Miranda,I., Giska,I., Farelo,L., Pimenta,J., Zimova,M., Bryk,J.,
+            Dalen,L., Mills,L.S., Zub,K. and Melo-Ferreira,J.
+  TITLE     Museomics dissects the genetic basis for adaptive seasonal
+            colouration in the least weasel
+  JOURNAL   Mol Biol Evol (2021) In press
+   PUBMED   34157721
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 16480)
+  AUTHORS   Miranda,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAR-2021) CIBIO-InBIO, Rua Padre Armando Quintas, 7,
+            Vairao 4485-661, Portugal
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: MAY-2019
+            Assembly Method        :: Supernova v. 2.1.1
+            Assembly Name          :: MusNiv_Pri1.0
+            Diploid                :: Principal Pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 45x
+            Sequencing Technology  :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16480
+                     /organism="Mustela nivalis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="MRI-KZ171007"
+                     /db_xref="taxon:36239"
+                     /sex="male"
+                     /tissue_type="heart"
+                     /ecotype="Poland"
+                     /country="Poland: Grzymaly-Sierzputy Stare"
+                     /collection_date="2017-10-07"
+                     /collected_by="Karol Zub"
+CONTIG      join(JAGEND010031995.1:1..16480)
+//

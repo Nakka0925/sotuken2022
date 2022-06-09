@@ -1,0 +1,47 @@
+LOCUS       CM004187               16301 bp    DNA     circular CON 26-APR-2016
+DEFINITION  Mus musculus musculus strain PWK/PhJ mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM004187 LVXU01000000
+VERSION     CM004187.1
+DBLINK      BioProject: PRJNA310854
+            BioSample: SAMN04489829
+KEYWORDS    WGS.
+SOURCE      mitochondrion Mus musculus musculus (eastern European house mouse)
+  ORGANISM  Mus musculus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 16301)
+  AUTHORS   Howe,K. and Keane,T.
+  TITLE     Genome assemblies for 16 mouse strains
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16301)
+  AUTHORS   Howe,K. and Keane,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2016) Computational Genomics, Wellcome Trust
+            Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge
+            CB10 1SA, United Kingdom (Great Britain)
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date             :: 2016
+            Assembly Method           :: SGA v. 0.9.19; SOAP denovo2 v. r240;
+                                         Ragout v. 2.0b
+            Assembly Name             :: PWK_PhJ_v1
+            Genome Representation     :: Full
+            Expected Final Version    :: No
+            Reference-guided Assembly :: GCA_000001635.2
+            Genome Coverage           :: 60.0x
+            Sequencing Technology     :: Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16301
+                     /organism="Mus musculus musculus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /strain="PWK/PhJ"
+                     /sub_species="musculus"
+                     /db_xref="taxon:39442"
+                     /sex="female"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+CONTIG      join(LVXU01030233.1:1..16301)
+//

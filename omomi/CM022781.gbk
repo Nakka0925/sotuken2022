@@ -1,0 +1,48 @@
+LOCUS       CM022781               16773 bp    DNA     circular CON 16-APR-2020
+DEFINITION  Halichoerus grypus isolate 241Hg ecotype Northwest Atlantic
+            mitochondrion, complete sequence, whole genome shotgun sequence.
+ACCESSION   CM022781 JAAXOB010000000
+VERSION     CM022781.1
+DBLINK      BioProject: PRJNA577240
+            BioSample: SAMN13022322
+KEYWORDS    WGS.
+SOURCE      mitochondrion Halichoerus grypus (gray seal)
+  ORGANISM  Halichoerus grypus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+            Phocidae; Halichoerus.
+REFERENCE   1  (bases 1 to 16773)
+  AUTHORS   Sawatzki,K., Puryear,W. and Runstadler,J.
+  TITLE     Draft genome for the grey seal (Halichoerus grypus)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16773)
+  AUTHORS   Sawatzki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2019) Infectious Disease and Global Health,
+            Cummings School of Veterinary Medicine at Tufts University, 200
+            Westboro Road, North Grafton, MA 01536, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: SEP-2019
+            Assembly Method        :: MaSuRCA v. 3.3.0
+            Assembly Name          :: Tufts_HGry_1.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 39.0x
+            Sequencing Technology  :: Illumina NextSeq; Oxford Nanopore MinION
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16773
+                     /organism="Halichoerus grypus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="241Hg"
+                     /db_xref="taxon:9711"
+                     /sex="male"
+                     /tissue_type="blood"
+                     /dev_stage="molt stage V"
+                     /ecotype="Northwest Atlantic"
+                     /lat_lon="41.33657 N 70.30589 W"
+                     /collection_date="2018-02-14"
+                     /collected_by="Dr. Wendy Puryear"
+CONTIG      join(JAAXOB010006881.1:1..16773)
+//

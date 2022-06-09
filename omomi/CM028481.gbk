@@ -1,0 +1,54 @@
+LOCUS       CM028481               16566 bp    DNA     circular CON 19-JAN-2021
+DEFINITION  Homo sapiens isolate mHomSap3 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM028481 JACSEX010000000
+VERSION     CM028481.1
+DBLINK      BioProject: PRJNA562023
+            BioSample: SAMN12568975
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16566)
+  AUTHORS   Jarvis,E.D., Formenti,G., Rhie,A., Mountcastle,J., Haase,B.,
+            Balacco,J., Collins,J., Wood,J., Shalmiyev,L., Myers,G., Durbin,R.,
+            Phillippy,A., Howe,K. and Fedrigo,O.
+  TITLE     Homo sapiens (Human) genome, mHomSap3, maternal haplotype
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16566)
+  AUTHORS   Jarvis,E.D., Formenti,G., Rhie,A., Mountcastle,J., Haase,B.,
+            Balacco,J., Collins,J., Wood,J., Shalmiyev,L., Myers,G., Durbin,R.,
+            Phillippy,A., Howe,K. and Fedrigo,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2020) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 16-JUL-2020
+            Assembly Method        :: TrioCanu v. 1.8; purge_dups v. 1.0.0;
+                                      Scaff 10x v. 4.1.0; Bionano solve v.
+                                      3.2.1_04122018; Salsa2 HiC v. 2.2; Arrow
+                                      polishing and gap filling v.
+                                      SMRTLink7.0.1; Freebayes v. 1.3.1; gEVAL
+                                      manual curation v. 2020-07-16; VGP trio
+                                      assembly pipeline v. 1.6
+            Assembly Name          :: mHomSap3.mat
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 73.27x
+            Sequencing Technology  :: PacBio Sequel I CLR; Illumina NovaSeq;
+                                      Arima Genomics Hi-C; Bionano Genomics DLS
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16566
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="mHomSap3"
+                     /db_xref="taxon:9606"
+                     /sex="male"
+                     /tissue_type="blood"
+CONTIG      join(JACSEX010000950.1:1..16566)
+//

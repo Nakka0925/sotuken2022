@@ -1,0 +1,61 @@
+LOCUS       CM024382               16645 bp    DNA     circular CON 13-AUG-2020
+DEFINITION  Rousettus aegyptiacus isolate mRouAeg1 mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM024382 JACASE010000000
+VERSION     CM024382.1
+DBLINK      BioProject: PRJNA628585
+            BioSample: SAMN14734550
+KEYWORDS    WGS.
+SOURCE      mitochondrion Rousettus aegyptiacus (Egyptian rousette)
+  ORGANISM  Rousettus aegyptiacus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Megachiroptera;
+            Pteropodidae; Pteropodinae; Rousettus.
+REFERENCE   1  (bases 1 to 16645)
+  AUTHORS   Jebb,D., Huang,Z., Pippel,M., Hughes,G.M., Lavrichenko,K.,
+            Devanna,P., Winkler,S., Jermiin,L.S., Skirmuntt,E.C.,
+            Katzourakis,A., Burkitt-Gray,L., Ray,D.A., Sullivan,K.A.M.,
+            Roscito,J.G., Kirilenko,B.M., Davalos,L.M., Corthals,A.P.,
+            Power,M.L., Jones,G., Ransome,R.D., Dechmann,D.K.N.,
+            Locatelli,A.G., Puechmaille,S.J., Fedrigo,O., Jarvis,E.D.,
+            Hiller,M., Vernes,S.C., Myers,E.W. and Teeling,E.C.
+  TITLE     Six reference-quality genomes reveal evolution of bat adaptations
+  JOURNAL   Nature 583 (7817), 578-584 (2020)
+   PUBMED   32699395
+REFERENCE   2  (bases 1 to 16645)
+  AUTHORS   Pippel,M., Jebb,D., Huang,Z., Huges,G., Lavrichenko,K., Devanna,P.,
+            Winkler,S., Ray,D., Davalos,L., Hiller,M., Vernes,S., Myers,E. and
+            Teeling,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUN-2020) Center for Systems Biology, Bat1K,
+            Pfotenhauerstrasse 108, Dresden 01307, Germany
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 27-APR-2019
+            Assembly Method        :: DAmar v. APRIL-2019; Bionano Solve DLS v.
+                                      3.3; Salsa2 HiC v. git commit: e3ae7d8;
+                                      GenomicConsensus v. git commit: 038de5c;
+                                      longranger align v. 2.2.0; Freebayes v.
+                                      1.2.0; HiGlass manual curation v. 1.5
+            Assembly Name          :: mRouAeg1.p
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 64.6x
+            Sequencing Technology  :: PacBio Sequel CLR; 10X Genomics chromium
+                                      linked reads; Bionano Genomics; Arima
+                                      Genomics Hi-C kit; PacBio Sequel IsoSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16645
+                     /organism="Rousettus aegyptiacus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="mRouAeg1"
+                     /db_xref="taxon:9407"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /dev_stage="adult"
+                     /country="USA: Berkeley (captive colony)"
+                     /collection_date="2017"
+                     /collected_by="Sonja Vernes"
+CONTIG      join(JACASE010000030.1:1..16645)
+//

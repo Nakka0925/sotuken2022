@@ -1,0 +1,45 @@
+LOCUS       CM033226               16429 bp    DNA     circular CON 26-JUL-2021
+DEFINITION  Cervus canadensis isolate Bull #8, Minnesota mitochondrion,
+            complete sequence, whole genome shotgun sequence.
+ACCESSION   CM033226 JACTMD010000000
+VERSION     CM033226.1
+DBLINK      BioProject: PRJNA657053
+            BioSample: SAMN15814149
+KEYWORDS    WGS.
+SOURCE      mitochondrion Cervus canadensis
+  ORGANISM  Cervus canadensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Cervidae; Cervinae; Cervus.
+REFERENCE   1  (bases 1 to 16429)
+  AUTHORS   Masonbrink,R.E., Alt,D., Bayles,D.O., Boggiatto,P., Edwards,W.,
+            Tatum,F., Williams,J., Wilson-Welder,J., Zimin,A., Severin,A. and
+            Olsen,S.
+  TITLE     A pseudomolecule assembly of the Rocky Mountain elk genome
+  JOURNAL   PLoS One 16 (4), e0249899 (2021)
+   PUBMED   33909645
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 16429)
+  AUTHORS   Masonbrink,R.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2020) Office of Biotechnology, Genome Informatics
+            Facility, Iowa State University, 206 Science I, Ames, IA 50011, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 24-AUG-2020
+            Assembly Method        :: MaSuRCA v. MAY-2018
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 686.0x
+            Sequencing Technology  :: PacBio RSII; Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16429
+                     /organism="Cervus canadensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Bull #8, Minnesota"
+                     /db_xref="taxon:1574408"
+                     /sex="male"
+                     /tissue_type="white blood cells"
+CONTIG      join(JACTMD010000186.1:1..16429)
+//

@@ -1,0 +1,54 @@
+LOCUS       CM003309               16569 bp    DNA     circular CON 20-NOV-2015
+DEFINITION  Homo sapiens isolate CHM13 mitochondrion, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM003309 LDOC03000000
+VERSION     CM003309.1
+DBLINK      BioProject: PRJNA269593
+            BioSample: SAMN03255769
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16569)
+  AUTHORS   Koren,S., Phillippy,A.N., Berlin,K., Wilson,R.K., Fulton,L.,
+            Fulton,R.S., Graves,T.A., Steinberg,K.M., McGrath,S., Magrini,V.,
+            Markovic,C. and Boitano,M.
+  TITLE     CHM13 CA 8.3 Sensitive (2.5% error rate) Draft Assembly
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16569)
+  AUTHORS   Koren,S., Phillippy,A.N., Berlin,K., Wilson,R.K., Fulton,L.,
+            Fulton,R.S., Graves,T.A., Steinberg,K.M., McGrath,S., Magrini,V.,
+            Markovic,C. and Boitano,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-2015) Informatics, NBACC, 110 Thomas Johnson
+            Drive, Suite 300, Frederick, MD 21072, USA
+COMMENT     This submission is part of an assembly evaluation organized by the
+            Genome Reference Consortium, in which multiple assemblies derived
+            from the same set of sequencing data will be evaluated in order to
+            identify a precursor that will be used as the basis for continued
+            assembly improvement and curation.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: MAY-2015
+            Assembly Method        :: Celera Assembler v. 8.3rc2
+            Assembly Name          :: CHM13 CA Sensitive 2.5% Error
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 70.0x
+            Sequencing Technology  :: PacBio
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16569
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="CHM13"
+                     /db_xref="taxon:9606"
+                     /sex="female"
+                     /cell_line="CHM13htert"
+                     /tissue_type="hydatidiform mole"
+                     /note="haploid cell line"
+CONTIG      join(LDOC03012091.1:1..16569)
+//

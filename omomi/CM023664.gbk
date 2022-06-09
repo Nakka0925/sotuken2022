@@ -1,0 +1,54 @@
+LOCUS       CM023664               16561 bp    DNA     circular CON 23-JUN-2020
+DEFINITION  Homo sapiens isolate EgyptRef1 mitochondrion, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM023664 JABMBX010000000
+VERSION     CM023664.1
+DBLINK      BioProject: PRJNA633987
+            BioSample: SAMN14558220
+KEYWORDS    WGS.
+SOURCE      mitochondrion Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 16561)
+  AUTHORS   Wohlers,I.
+  TITLE     An integrated personal and population-based Egyptian genome
+            reference
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16561)
+  AUTHORS   Wohlers,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2020) Medical Systems Biology, University of
+            Luebeck, Ratzeburger Allee 160, Luebeck 23562, Germany
+COMMENT     This assembly version is an alternative assembly to the EGYPT
+            assembly (MSB_human_2), in JABMBW000000000. Altogether, there are
+            three versions, EGYPT (MSB_human_2) JABMBW000000000, EGYPT_wtdbg2
+            (MSB_human_1a) JABMBX000000000 and EGYPT_falcon (MSB_human_1b)
+            JABMBY000000000. The EGYPT_wtdbg2 (i.e. MSB_human_1a) assembly has
+            been assembled with WTDBG2 using PacBio reads at 99x coverage and
+            subsequently been polished using Illumina paired-end reads at 90x.
+            Contigs of this assembly and of alternative assembly EGYPT_falcon
+            (i.e. MSB_human_1b) JABMBY000000000 have been used for constructing
+            a combined, improved assembly EGYPT (i.e. MSB_human_2)
+            JABMBW000000000.. For details, please refer to the publication.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: WTDBG2 v. 2.3
+            Assembly Name          :: MSB_human_1a
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 190.0x
+            Sequencing Technology  :: PacBio; Illumina
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16561
+                     /organism="Homo sapiens"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="EgyptRef1"
+                     /isolation_source="peripheral blood leukocytes"
+                     /db_xref="taxon:9606"
+                     /sex="male"
+CONTIG      join(JABMBX010001419.1:1..16561)
+//

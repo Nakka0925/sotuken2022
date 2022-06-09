@@ -1,0 +1,61 @@
+LOCUS       CM027631               16381 bp    DNA     circular CON 09-DEC-2020
+DEFINITION  Tachyglossus aculeatus isolate mTacAcu1 mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM027631 JADRJE010000000
+VERSION     CM027631.1
+DBLINK      BioProject: PRJNA607237
+            BioSample: SAMN12634963
+KEYWORDS    WGS.
+SOURCE      mitochondrion Tachyglossus aculeatus (Australian echidna)
+  ORGANISM  Tachyglossus aculeatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Monotremata; Tachyglossidae; Tachyglossus.
+REFERENCE   1  (bases 1 to 16381)
+  AUTHORS   Zhang,G., Gedman,G., Zhou,Y., Formenti,G., Howard,J., Daish,T.,
+            Grutzner,F., Korlach,J., Pelan,S., Chow,W., Howe,K. and Jarvis,E.D.
+  TITLE     Tachyglossus aculeatus (Short-beaked echidna) genome, mTacAcu1,
+            primary haplotype
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16381)
+  AUTHORS   Zhang,G., Gedman,G., Zhou,Y., Formenti,G., Howard,J., Daish,T.,
+            Grutzner,F., Korlach,J., Pelan,S., Chow,W., Howe,K. and Jarvis,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-NOV-2020) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 26-OCT-2020
+            Assembly Method        :: FALCON v. falcon-2018.31.08-03.06;
+                                      FALCON-Unzip v. 6.0.0.47841; purge_dups
+                                      v. github
+                                      ca23030ccf4254dfd2d3a5ea90d0eed41c24f88b
+                                      ca23030ccf4254dfd2d3a5ea90d0eed41c24f88b;
+                                      Scaff10x v. 4.1.0; Bionano Solve v.
+                                      3.2.1_04122018; Salsa2 HiC v. 2.2; Polish
+                                      pbgcpp v. 1.9.0; Longranger Align v.
+                                      2.2.2; freebayes v. 1.3.1; gEVAL manual
+                                      curation v. 2020-09-17; Manual Curation
+                                      v. 2020-10-26; VGP assembly pipeline v.
+                                      1.6
+            Assembly Name          :: mTacAcu1.pri
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 58.29x
+            Sequencing Technology  :: PacBio Sequel I CLR; Illumina NovaSeq;
+                                      Bionano Genomics DLS; Phase Genomics
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16381
+                     /organism="Tachyglossus aculeatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="mTacAcu1"
+                     /db_xref="taxon:9261"
+                     /sex="male"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+                     /country="Australia: Upper Barnard River, New South Wales"
+                     /lat_lon="31.647305 S 151.500011 E"
+                     /collected_by="Tasman Daish, Frank Grutzner"
+CONTIG      join(JADRJE010000311.1:1..16381)
+//

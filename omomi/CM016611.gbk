@@ -1,0 +1,74 @@
+LOCUS       CM016611               16692 bp    DNA     circular CON 12-MAY-2020
+DEFINITION  Phyllostomus discolor isolate MPI-MPIP mPhyDis1 mitochondrion,
+            complete sequence, whole genome shotgun sequence.
+ACCESSION   CM016611 RXPA02000000
+VERSION     CM016611.2
+DBLINK      BioProject: PRJNA489141
+            BioSample: SAMN09948786
+KEYWORDS    WGS.
+SOURCE      mitochondrion Phyllostomus discolor (pale spear-nosed bat)
+  ORGANISM  Phyllostomus discolor
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Chiroptera; Microchiroptera;
+            Phyllostomidae; Phyllostominae; Phyllostomus.
+REFERENCE   1  (bases 1 to 16692)
+  AUTHORS   Vernes,S., Fedrigo,O., Teeling,E., Myers,G., Mountcastle,J.,
+            Haase,B., Rhie,A., Koren,S., Phillippy,A., Lewin,H., Damas,J.,
+            Howe,K., Formenti,G. and Jarvis,E.D.
+  TITLE     Phyllostomus discolor (Pale spear-nosed Bat) genome sequencing and
+            assembly, mPhyDis1, primary haplotype, v3
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16692)
+  AUTHORS   Vernes,S., Fedrigo,O., Teeling,E., Myers,G., Mountcastle,J.,
+            Haase,B., Rhie,A., Koren,S., Phillippy,A., Lewin,H., Damas,J.,
+            Howe,K. and Jarvis,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-DEC-2018) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+REFERENCE   3  (bases 1 to 16692)
+  AUTHORS   Vernes,S., Fedrigo,O., Teeling,E., Myers,G., Mountcastle,J.,
+            Haase,B., Rhie,A., Koren,S., Phillippy,A., Lewin,H., Damas,J.,
+            Howe,K., Formenti,G. and Jarvis,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-2020) Vertebrate Genomes Project, G10K, 1230 York
+            Avenue, New York, NY 10065, USA
+COMMENT     On May 12, 2020 this sequence version replaced CM016611.1.
+            This assembly represents the principal haplotype of the diploid
+            genome Phyllostomus discolor and includes the chromosomes. The
+            alternate haplotype sequences are in WGS project RXPB00000000.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 29-NOV-2019
+            Assembly Method        :: FALCON v. 5.1.1; FALCON-Unzip v. 1.0.2;
+                                      scaff10X v. git 4.28.2018; Bionano Solve
+                                      B v. spQI/BssSI 3.2.1; Salsa2 HiC v. 2.0;
+                                      smrtanalysis Arrow polishing & gap
+                                      filling v. 5.1.0.26412; longranger align
+                                      v. 2.2.2; freebayes v. 1.2.0;
+                                      purge_haplotigs v. bit 7.10.2018; gEVAL
+                                      manual curation v. 2019-11-29
+            Assembly Name          :: mPhyDis1.pri.v3
+            Diploid                :: Principal pseudohaplotype
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 65.8x
+            Sequencing Technology  :: PacBio Sequel; 10X Genomics linked reads;
+                                      Bioanano Genomics 2 enzyme; Arima
+                                      Genomics HiC
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16692
+                     /organism="Phyllostomus discolor"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="MPI-MPIP mPhyDis1"
+                     /db_xref="taxon:89673"
+                     /sex="male"
+                     /tissue_type="muscle"
+                     /country="Germany: Munich, Collected from captive colony,
+                     LMU"
+                     /collection_date="25-Oct-2016"
+                     /collected_by="Pedro Rodenas-Cuadrado, Uwe Firzlaff, Sonja
+                     Vernes"
+CONTIG      join(RXPA02000078.1:1..16692)
+//

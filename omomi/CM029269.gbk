@@ -1,0 +1,50 @@
+LOCUS       CM029269               16743 bp    DNA     circular CON 19-FEB-2021
+DEFINITION  Phacochoerus africanus isolate WHEZ1 mitochondrion, complete
+            sequence, whole genome shotgun sequence.
+ACCESSION   CM029269 JACMRZ010000000
+VERSION     CM029269.1
+DBLINK      BioProject: PRJNA656957
+            BioSample: SAMN15809474
+KEYWORDS    WGS.
+SOURCE      mitochondrion Phacochoerus africanus (Common warthog)
+  ORGANISM  Phacochoerus africanus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae;
+            Phacochoerus.
+REFERENCE   1  (bases 1 to 16743)
+  AUTHORS   Eory,L., Warr,A., Burdon,T., Finlayson,H.A., Gharbi,K.,
+            Girling,S.J., Macdonald,A., Martin,F., Palgrave,C., Watson,T.,
+            Watson,M. and Archibald,A.L.
+  TITLE     De novo assembly of a chromosome-level reference genome of the
+            common warthog (Phacochoerus africanus)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16743)
+  AUTHORS   Eory,L., Warr,A., Burdon,T., Finlayson,H.A., Gharbi,K.,
+            Girling,S.J., Watson,T., Watson,M. and Archibald,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-2020) Genetics and Genomics, The Roslin
+            Institute, Easter Bush Campus, University of Edinburgh, Edinburgh,
+            Midlothian EH25 9RG, United Kingdom
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 06-AUG-2020
+            Assembly Method        :: FALCON-Unzip v. 1.2.4
+            Assembly Name          :: ROS_Pafr_v1
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 56.0x
+            Sequencing Technology  :: PacBio Sequel
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16743
+                     /organism="Phacochoerus africanus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="WHEZ1"
+                     /isolation_source="zoo sample"
+                     /db_xref="taxon:41426"
+                     /sex="female"
+                     /cell_type="pulmonary alveolar macrophages"
+                     /dev_stage="adult"
+                     /collection_date="2012-08-20"
+CONTIG      join(JACMRZ010000018.1:1..16743)
+//

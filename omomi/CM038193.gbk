@@ -1,0 +1,45 @@
+LOCUS       CM038193               16715 bp    DNA     circular CON 12-JAN-2022
+DEFINITION  Ceratotherium simum cottoni isolate KB9947 breed northern white
+            rhinoceros mitochondrion, complete sequence, whole genome shotgun
+            sequence.
+ACCESSION   CM038193 JAHLFX010000000
+VERSION     CM038193.1
+DBLINK      BioProject: PRJNA734732
+            BioSample: SAMN19546241
+KEYWORDS    WGS.
+SOURCE      mitochondrion Ceratotherium simum cottoni (northern white
+            rhinoceros)
+  ORGANISM  Ceratotherium simum cottoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Rhinocerotidae;
+            Ceratotherium.
+REFERENCE   1  (bases 1 to 16715)
+  AUTHORS   Wang,G., Mueller,F.-J. and Korody,M.L.
+  TITLE     Chromosome-level genome assembly of the functionally extinct
+            northern white rhinoceros (Ceratotherium simum cottoni)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 16715)
+  AUTHORS   Wang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2021) Genome Regulation, Max Planck Institute for
+            Molecular Genetics, Ihnestr., 63, Berlin 14195, Germany
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method        :: shasta v. 0.5.1
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 75.0x
+            Sequencing Technology  :: Oxford Nanopore MinION
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..16715
+                     /organism="Ceratotherium simum cottoni"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="KB9947"
+                     /sub_species="cottoni"
+                     /db_xref="taxon:310713"
+                     /sex="male"
+                     /tissue_type="Fibroblast"
+                     /note="breed: northern white rhinoceros"
+CONTIG      join(JAHLFX010000391.1:1..16715)
+//

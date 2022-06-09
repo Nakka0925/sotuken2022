@@ -1,0 +1,46 @@
+LOCUS       CM034436               17251 bp    DNA     circular CON 14-SEP-2021
+DEFINITION  Felis chaus isolate Fch-1a mitochondrion, complete sequence, whole
+            genome shotgun sequence.
+ACCESSION   CM034436 JAGKTF010000000
+VERSION     CM034436.1
+DBLINK      BioProject: PRJNA686007
+            BioSample: SAMN17103467
+KEYWORDS    WGS.
+SOURCE      mitochondrion Felis chaus (jungle cat)
+  ORGANISM  Felis chaus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Feliformia; Felidae;
+            Felinae; Felis.
+REFERENCE   1  (bases 1 to 17251)
+  AUTHORS   Bredemeyer,K.R. and Murphy,W.J.
+  TITLE     Rapid macrosatellite evolution promotes X-linked hybrid male
+            sterility in a feline interspecies cross
+  JOURNAL   Mol Biol Evol (2021) In press
+REFERENCE   2  (bases 1 to 17251)
+  AUTHORS   Bredemeyer,K.R. and Murphy,W.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2021) Veterinary Integrative Biosciences, Texas
+            A&M University, 660 Raymond Stotzer Pkwy, College Station, TX
+            77843, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2020
+            Assembly Method        :: NextDenovo v. 2.2-beta.0
+            Assembly Name          :: FelChav1.0
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 49.0x
+            Sequencing Technology  :: PacBio Sequel
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..17251
+                     /organism="Felis chaus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="Fch-1a"
+                     /db_xref="taxon:61376"
+                     /sex="male"
+                     /cell_type="Fibroblast"
+                     /tissue_type="Fibroblasts"
+                     /dev_stage="adult"
+CONTIG      join(JAGKTF010000053.1:1..17251)
+//
