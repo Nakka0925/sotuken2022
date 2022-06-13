@@ -3,7 +3,7 @@ require 'csv'
 require 'bio'
 
 #ゲノムデータをサーバーのディレクトリに保存しないで実行すると実行時間が大きくなる！
-
+#
 def accession_number_gain
 
   data_list = CSV.read('organelles.csv')
