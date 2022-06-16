@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import tensorflow as tf
-
+from keras.utils import plot_model
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 _URL = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
@@ -148,3 +148,56 @@ plt.ylim([0,1.0])
 plt.title('Training and Validation Loss')
 plt.xlabel('epoch')
 plt.savefig("accuracy_test.png")
+
+base_model.trainable = True
+
+# Let's take a look to see how many layers are in the base model
+print("Number of layers in the base model: ", len(base_model.layers))
+
+# Fine-tune from this layer onwards
+fine_tune_at = 100
+
+# Freeze all the layers before the `fine_tune_at` layer
+for layer in base_model.layers[:fine_tune_at]:
+  layer.trainable =  False
+
+model.compile(loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
+              optimizer = tf.keras.optimizers.RMSprop(lr=base_learning_rate/10),
+              metrics=['accuracy'])
+
+plot_model(model, show_shapes=True, to_file='model.png')
+
+fine_tune_epochs = 10
+total_epochs =  initial_epochs + fine_tune_epochs
+
+history_fine = model.fit(train_dataset,
+                         epochs=total_epochs,
+                         initial_epoch=history.epoch[-1],
+                         validation_data=validation_dataset)
+
+acc += history_fine.history['accuracy']
+val_acc += history_fine.history['val_accuracy']
+
+loss += history_fine.history['loss']
+val_loss += history_fine.history['val_loss']
+
+plt.figure(figsize=(8, 8))
+plt.subplot(2, 1, 1)
+plt.plot(acc, label='Training Accuracy')
+plt.plot(val_acc, label='Validation Accuracy')
+plt.ylim([0.8, 1])
+plt.plot([initial_epochs-1,initial_epochs-1],
+          plt.ylim(), label='Start Fine Tuning')
+plt.legend(loc='lower right')
+plt.title('Training and Validation Accuracy')
+
+plt.subplot(2, 1, 2)
+plt.plot(loss, label='Training Loss')
+plt.plot(val_loss, label='Validation Loss')
+plt.ylim([0, 1.0])
+plt.plot([initial_epochs-1,initial_epochs-1],
+         plt.ylim(), label='Start Fine Tuning')
+plt.legend(loc='upper right')
+plt.title('Training and Validation Loss')
+plt.xlabel('epoch')
+plt.savefig("test.png")
