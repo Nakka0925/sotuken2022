@@ -8,7 +8,6 @@ def data_gain():
 
   files : 生成した画像のパスを格納したリスト
   list  : {accession : class(label)}
-  
 
   """
   files = glob.glob('machine-genome-classification/data/img/*.png')
@@ -23,11 +22,26 @@ def data_gain():
     tmp.append(file)
     
   num = len(files)
+  a = b = c = 0
+  
 
   for n in range(num):
-    file = cv2.imread(files[n])
-    file_list.append(file)
+
+    if tmp[n] not in list:
+      continue
+    """
+    if list[tmp[n]] == 0:
+      a = a + 1
+        
+    if list[tmp[n]] == 1:
+      b = b + 1
+        
+    if list[tmp[n]] == 2:
+      c = c + 1
+    """
     cls = list[tmp[n]]
     label_list.append(cls)
+    file = cv2.imread(files[n])
+    file_list.append(file)
     
   return file_list, label_list

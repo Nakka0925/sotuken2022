@@ -11,8 +11,9 @@ def get_label(path):
         label = {accession : class}
 
     """
-    clr = {'Insecta' : 0, 'Mammalia' : 1, 'Collembola' : 2, 'Protura' : 3}
+    clr = {'Insecta' : 0, 'Mammalia' : 1, 'Actinopteri' : 2}
     label = {}
+
     
     df = pd.read_csv(path, encoding='shift-jis')
     df2 = df['class']
@@ -22,6 +23,9 @@ def get_label(path):
     num = len(df2)
     
     for i in range(num):
+        if df2[i] not in clr:
+            continue
+
         label[accession[i]] = clr[df2[i]]
-        
+    
     return label
