@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import glob
 import cv2, os
 from label import get_label
+import numpy as np
 
 def data_gain():
   """
@@ -22,12 +23,14 @@ def data_gain():
     tmp.append(file)
     
   num = len(files)
+  num_file = num
   a = b = c = 0
   
 
   for n in range(num):
 
     if tmp[n] not in list:
+      num_file -= 1
       continue
     """
     if list[tmp[n]] == 0:
@@ -42,6 +45,13 @@ def data_gain():
     cls = list[tmp[n]]
     label_list.append(cls)
     file = cv2.imread(files[n])
+    file = cv2.cvtColor(file, cv2.COLOR_BGR2GRAY)
     file_list.append(file)
-    
+
+  """
+  for i in range(192):
+    for j in range(192):
+      print(file_list[0][i][j], end="\t")
+    print (end="\n")
+  """
   return file_list, label_list

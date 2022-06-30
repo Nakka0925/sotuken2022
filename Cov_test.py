@@ -11,14 +11,15 @@ from tensorflow.keras.utils import plot_model
 
 
 file_list, label_list = data_gain()
-#print(label_list)
+file_list = np.array(file_list)
+print(file_list.shape)
 file_list = [file.astype(float)/255.0 for file in file_list]
 
 #file_list = np.array(file_list)
 
 train_x, valid_x, train_y, valid_y = train_test_split(file_list, label_list, test_size=0.2)
 
-
+"""
 train_y = np.array(train_y)
 valid_y = np.array(valid_y)
 
@@ -106,3 +107,4 @@ plt.ylabel('Accuracy')
 plt.legend()
 plt.savefig("accuracy.png")
 #plt.show()
+"""
